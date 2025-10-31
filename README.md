@@ -1,1 +1,1 @@
-# messanger
+# simple chat with firebase core
