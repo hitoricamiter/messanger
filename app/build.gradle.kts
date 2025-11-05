@@ -50,6 +50,7 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
 
     implementation("com.github.bumptech.glide:glide:4.16.0")
+    implementation(libs.androidx.recyclerview)
     kapt("com.github.bumptech.glide:compiler:4.16.0")
 
     testImplementation(libs.junit)
@@ -57,4 +58,5 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
     implementation("com.google.firebase:firebase-database:22.0.1")
+    implementation("com.google.firebase:firebase-auth")
 }
